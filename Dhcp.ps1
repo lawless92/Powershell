@@ -8,19 +8,19 @@
 
 $scopes = @{
     # Main network scope
-    "ScopeTauste"        = "10.32.136.0"
+    ""        = ""
     
-    # Aruba network equipment scope
-    "ScopeAruba"         = "10.32.138.0"
+    # Anetwork equipment scope
+    ""         = ""
     
     # Guest network scope
-    "ScopeInvitados"     = "10.32.138.128"
+    ""     = ""
     
-    # Video surveillance cameras scope
-    "ScopeVideoCamaras"  = "10.32.139.0"
+    #  cameras scope
+    ""  = ""
     
     # Factory equipment scope
-    "ScopeFactory"       = "10.32.140.0"
+    ""       = ""
 }
 
 
