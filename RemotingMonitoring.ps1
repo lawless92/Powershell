@@ -1,6 +1,6 @@
 
 #Listado de servidores
-HostsList = @("ESTACNS01APP", "ESTACNS01DB", "ESTACNS01SRV","ESTACNS01FS", "ESTACNS01AS", "ESTACNS02AS", "ESTACNS03AS")
+HostsList = @("", "", "","", "", "", "")
 
 
 
