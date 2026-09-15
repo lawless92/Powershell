@@ -1,8 +1,8 @@
 
 # Connect to ESXi hosts
-$esxiHostTst1 = "10.32.136.14"
-$esxiHostTst2 = "10.32.136.7"
-$esxiHostZgz = "10.32.143.4"
+$esxiHostTst1 = ""
+$esxiHostTst2 = ""
+$esxiHostZgz = ""
 
 $credential = Get-Credential
 Connect-VIServer -Server $esxiHostZgz  -Credential $credential
