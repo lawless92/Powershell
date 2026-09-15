@@ -1,10 +1,10 @@
 ﻿
 # Get parameters from environment variables or use defaults
-$RemoteServer = if ($env:REMOTE_SERVER) { $env:REMOTE_SERVER } else { "ESTACNS01APP" }
-$PrimarySiteName = if ($env:PRIMARY_SITE_NAME) { $env:PRIMARY_SITE_NAME } else { "Nexus.Gateway" }
-$PrimarySiteBak = if ($env:PRIMARY_SITE_BAK) { $env:PRIMARY_SITE_BAK } else { "Nexus.Gateway.BAK" }
-$SecondarySiteName = if ($env:SECONDARY_SITE_NAME) { $env:SECONDARY_SITE_NAME } else { "NNexus.Gateway" }
-$SecondarySiteBak = if ($env:SECONDARY_SITE_BAK) { $env:SECONDARY_SITE_BAK } else { "NNexus.Gateway.BAK" }
+$RemoteServer = if ($env:REMOTE_SERVER) { $env:REMOTE_SERVER } else { "" }
+$PrimarySiteName = if ($env:PRIMARY_SITE_NAME) { $env:PRIMARY_SITE_NAME } else { "" }
+$PrimarySiteBak = if ($env:PRIMARY_SITE_BAK) { $env:PRIMARY_SITE_BAK } else { "" }
+$SecondarySiteName = if ($env:SECONDARY_SITE_NAME) { $env:SECONDARY_SITE_NAME } else { "" }
+$SecondarySiteBak = if ($env:SECONDARY_SITE_BAK) { $env:SECONDARY_SITE_BAK } else { "" }
 
 # Los de paremetros usados
 Write-Output "=== Script Parameters ==="
